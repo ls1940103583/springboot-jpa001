@@ -83,4 +83,19 @@ public class PersonController {
 
         return personService.getpasswordlength();
     }
+
+    public String test1(){
+        System.out.println("老鸟增加test1");
+        return "test1";
+    }
+
+    public String test2(){
+        System.out.println("老鸟增加test2");
+        return "test2";
+    }
+
+    public String test3(){
+        System.out.println("老鸟增加test3");
+        return "test3";
+    }
 }
